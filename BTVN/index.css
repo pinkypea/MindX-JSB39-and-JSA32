@@ -1,0 +1,55 @@
+.all {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    .nav {
+        background-color: red;
+        height: 100%;
+        width: 20%;
+    }
+
+    .header-article-aside-footer {
+        display: block;
+        height: 100%;
+        width: 80%;
+
+        .header {
+            background-color: yellow;
+            width: 100%;
+            height: 20%;
+        }
+
+        .article-aside-footer {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            
+            .article-footer {
+                width: 80%;
+                height: 100%;
+                display: block;
+
+                .article {
+                    width: 100%;
+                    height: 80%;
+                    background-color: pink;
+                }
+
+                .footer {
+                    width: 100%;
+                    height: 20%;
+                    background-color: blue;
+                }
+
+            }
+
+            .aside {
+                width: 20%;
+                height: 100%;
+                background-color: green;
+            }
+        }
+
+    }
+}
