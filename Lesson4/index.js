@@ -71,3 +71,9 @@ hocsinh[1].tuoi = 17;
 hocsinh.splice(2, 1);
 console.log(hocsinh);
 
+let element = document.getElementById("heading");
+element.style.color = "red";
+element.innerHTML = "New heading";
+
+let new_text = document.getElementById("information");
+new_text.innerHTML = "<p>My full name is Đào Trung Kiên</p>"
